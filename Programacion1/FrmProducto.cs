@@ -71,6 +71,7 @@ namespace Programacion1
 			model.add(Producto);
 			lblOpciones.Visible = true;
 			cmbOpciones.Visible = true;
+			btnAceptar.Visible = false;
 
 		}
 		private void Verificar(int codigo, int cantidad, decimal precio, DateTime fechaDeCaducidad)
@@ -289,6 +290,7 @@ namespace Programacion1
 			}
 			if (cmbOpciones.SelectedIndex == 3)
             {
+				btnAceptar.Visible = true;
 				richte.Visible = false;
 				cmbOpcionesUnidades.Visible = false;
 				Buscarla.Visible = false;
@@ -300,8 +302,22 @@ namespace Programacion1
 				txtPrecioMinimo.Visible = false;
 				lblPrMax.Visible = false;
 				txtPrecioMaximo.Visible = false;
-				txtAceptar.Visible = true;
+				btnAceptar.Visible = true;
             }
+			if (cmbOpciones.SelectedIndex == 4)
+            {
+				btnAceptar.Visible = true;
+				richte.Visible = false;
+				cmbOpcionesUnidades.Visible = false;
+				txtFechaCaducidad.Visible = false;
+				lblFechaDeCaducidad.Visible = false;
+				txtFechaCaducidad.Visible = false;
+				lblPrMin.Visible = false;
+				txtPrecioMinimo.Visible = false;
+				lblPrMax.Visible = false;
+				txtPrecioMaximo.Visible = false;
+				Buscarla.Visible = false;
+			}
 		}
 
 		private void cmbOpcionesUnidades_SelectedIndexChanged(object sender, EventArgs e)
@@ -496,12 +512,13 @@ namespace Programacion1
         {
 			if (cmbOpciones.SelectedIndex == 3)
             {
+				richte.Visible = true;
 				Producto[] productoTem = model.OrdenarPrecio();
 				for (int i = 0; i < productoTem.Length; i++)
 				{
 					if (productoTem[i] != null)
 					{
-						MessageBox.Show($@"Codigo: {productoTem[i].Codigo}, Nombre: {productoTem[i].Name}, Cantidad: {productoTem[i].Cantidad}, Precio: {productoTem[i].Precio}, Caducidad: {productoTem[i].Caducidad}, Unidad Medida: {productoTem[i].Unidades}", "Productos ordenados por precio", MessageBoxButtons.OK, MessageBoxIcon.Information);
+						richte.Text += $"{productoTem[i].Tostring()}";
 					}
 				}
 			}

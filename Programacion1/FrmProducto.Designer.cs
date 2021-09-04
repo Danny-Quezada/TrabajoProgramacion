@@ -62,7 +62,7 @@ namespace Programacion1
             this.lblPrMax = new System.Windows.Forms.Label();
             this.txtPrecioMinimo = new System.Windows.Forms.TextBox();
             this.txtPrecioMaximo = new System.Windows.Forms.TextBox();
-            this.txtAceptar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -410,22 +410,23 @@ namespace Programacion1
             this.txtPrecioMaximo.TextChanged += new System.EventHandler(this.txtPrecioMaximo_TextChanged);
             this.txtPrecioMaximo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPrecioMaximo_KeyDown);
             // 
-            // txtAceptar
+            // btnAceptar
             // 
-            this.txtAceptar.Location = new System.Drawing.Point(552, 12);
-            this.txtAceptar.Name = "txtAceptar";
-            this.txtAceptar.Size = new System.Drawing.Size(75, 23);
-            this.txtAceptar.TabIndex = 34;
-            this.txtAceptar.Text = "Aceptar";
-            this.txtAceptar.UseVisualStyleBackColor = true;
-            this.txtAceptar.Click += new System.EventHandler(this.txtAceptar_Click);
+            this.btnAceptar.Location = new System.Drawing.Point(552, 12);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 34;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Visible = false;
+            this.btnAceptar.Click += new System.EventHandler(this.txtAceptar_Click);
             // 
             // FrmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtAceptar);
+            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtPrecioMaximo);
             this.Controls.Add(this.txtPrecioMinimo);
             this.Controls.Add(this.lblPrMax);
@@ -485,6 +486,6 @@ namespace Programacion1
 		private System.Windows.Forms.Label lblPrMax;
 		private System.Windows.Forms.TextBox txtPrecioMinimo;
 		private System.Windows.Forms.TextBox txtPrecioMaximo;
-        private System.Windows.Forms.Button txtAceptar;
+        private System.Windows.Forms.Button btnAceptar;
     }
 }
