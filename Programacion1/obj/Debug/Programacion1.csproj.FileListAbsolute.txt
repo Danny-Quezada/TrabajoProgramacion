@@ -1,0 +1,16 @@
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Programacion1.exe.config
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Programacion1.exe
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Programacion1.pdb
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Domain.dll
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Domain.pdb
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.csproj.AssemblyReference.cache
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.FrmProducto.resources
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.Properties.Resources.resources
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.csproj.GenerateResource.cache
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.csproj.CoreCompileInputs.cache
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.csproj.CopyComplete
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.exe
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.pdb
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Model.dll
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Model.pdb
+C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.Form1.resources

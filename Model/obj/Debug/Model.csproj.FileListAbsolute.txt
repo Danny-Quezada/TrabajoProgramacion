@@ -1,0 +1,9 @@
+C:\Users\ZGN\source\repos\Programacion1\Model\bin\Debug\Model.dll
+C:\Users\ZGN\source\repos\Programacion1\Model\bin\Debug\Model.pdb
+C:\Users\ZGN\source\repos\Programacion1\Model\bin\Debug\Domain.dll
+C:\Users\ZGN\source\repos\Programacion1\Model\bin\Debug\Domain.pdb
+C:\Users\ZGN\source\repos\Programacion1\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\ZGN\source\repos\Programacion1\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\ZGN\source\repos\Programacion1\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\ZGN\source\repos\Programacion1\Model\obj\Debug\Model.dll
+C:\Users\ZGN\source\repos\Programacion1\Model\obj\Debug\Model.pdb
