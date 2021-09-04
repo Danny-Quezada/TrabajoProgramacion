@@ -287,6 +287,21 @@ namespace Programacion1
 				lblFechaDeCaducidad.Visible = false;
 
 			}
+			if (cmbOpciones.SelectedIndex == 3)
+            {
+				richte.Visible = false;
+				cmbOpcionesUnidades.Visible = false;
+				Buscarla.Visible = false;
+				lblFechaDeCaducidad.Visible = false;
+				txtFechaCaducidad.Visible = false;
+				lblFechaDeCaducidad.Visible = false;
+				txtFechaCaducidad.Visible = false;
+				lblPrMin.Visible = false;
+				txtPrecioMinimo.Visible = false;
+				lblPrMax.Visible = false;
+				txtPrecioMaximo.Visible = false;
+				txtAceptar.Visible = true;
+            }
 		}
 
 		private void cmbOpcionesUnidades_SelectedIndexChanged(object sender, EventArgs e)
@@ -476,5 +491,26 @@ namespace Programacion1
 				}
 			}
 		}
-	}
+
+        private void txtAceptar_Click(object sender, EventArgs e)
+        {
+			if (cmbOpciones.SelectedIndex == 3)
+            {
+				Producto[] productoTem = model.OrdenarPrecio();
+				for (int i = 0; i < productoTem.Length; i++)
+				{
+					if (productoTem[i] != null)
+					{
+						MessageBox.Show($@"Codigo: {productoTem[i].Codigo}, Nombre: {productoTem[i].Name}, Cantidad: {productoTem[i].Cantidad}, Precio: {productoTem[i].Precio}, Caducidad: {productoTem[i].Caducidad}, Unidad Medida: {productoTem[i].Unidades}", "Productos ordenados por precio", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					}
+				}
+			}
+			else if (cmbOpciones.SelectedIndex == 4)
+            {
+				richte.Visible = true;
+				string productoTem = model.GetProductoAsJson(model.productos);
+				richte.Text = productoTem;
+            }
+        }
+    }
 }

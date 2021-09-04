@@ -14,3 +14,21 @@ C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.pd
 C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Model.dll
 C:\Users\ZGN\source\repos\Programacion1\Programacion1\bin\Debug\Model.pdb
 C:\Users\ZGN\source\repos\Programacion1\Programacion1\obj\Debug\Programacion1.Form1.resources
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Programacion1.exe.config
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Programacion1.exe
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Programacion1.pdb
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Domain.dll
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Model.dll
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Domain.pdb
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Model.pdb
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.AssemblyReference.cache
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.Form1.resources
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.FrmProducto.resources
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.Properties.Resources.resources
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.GenerateResource.cache
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.CoreCompileInputs.cache
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.CopyComplete
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.exe
+C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.pdb

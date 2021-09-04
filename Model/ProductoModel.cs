@@ -1,5 +1,6 @@
 ﻿using Domain;
 using Domain.Enum;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -131,6 +132,57 @@ namespace Model
 			}
 			return Rango;
 
+		}
+		public string GetProductoAsJson(Producto[] e)
+		{
+			string tmp = string.Empty;
+			for (int i = 0; i < productos.Length; i++)
+			{
+				Producto productoTmp = new Producto()
+				{
+					Codigo = productos[i].Codigo,
+					Name = productos[i].Name,
+					Descripcion = productos[i].Descripcion,
+					Cantidad = productos[i].Cantidad,
+					Precio = productos[i].Precio,
+					Caducidad = productos[i].Caducidad,
+					Unidades = productos[i].Unidades
+				};
+				e = new Producto[productos.Length + 1];
+				Array.Copy(productos, e, productos.Length);
+				e[e.Length - 1] = productoTmp;
+				e = productos;
+			}
+			for (int i = 0; i < productos.Length; i++)
+			{
+				tmp = JsonConvert.SerializeObject(e[i]) + "" + tmp;
+			}
+			return tmp;
+		}
+		public Producto[] OrdenarPrecio()
+		{
+			Producto e;
+			Producto[] orden = new Producto[1];
+			Array.Sort(productos, new Producto.CompararPrecio());
+
+			for (int i = 0; i < productos.Length; i++)
+			{
+				e = new Producto()
+				{
+					Codigo = productos[i].Codigo,
+					Name = productos[i].Name,
+					Descripcion = productos[i].Descripcion,
+					Cantidad = productos[i].Cantidad,
+					Precio = productos[i].Precio,
+					Caducidad = productos[i].Caducidad,
+					Unidades = productos[i].Unidades
+				};
+				Producto[] tmp = new Producto[orden.Length + 1];
+				Array.Copy(orden, tmp, orden.Length);
+				tmp[tmp.Length - 1] = e;
+				orden = tmp;
+			}
+			return orden;
 		}
 	}
 	
