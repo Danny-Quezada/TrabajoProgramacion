@@ -516,6 +516,7 @@ namespace Programacion1
         {
 			if (cmbOpciones.SelectedIndex == 3)
             {
+	    			richte.Text = string.Empty;
 				richte.Visible = true;
 				Producto[] productoTem = model.OrdenarPrecio();
 				for (int i = 0; i < productoTem.Length; i++)
@@ -528,6 +529,7 @@ namespace Programacion1
 			}
 			else if (cmbOpciones.SelectedIndex == 4)
             {
+	    			richte.Text = string.Empty;
 				richte.Visible = true;
 				string productoTem = model.GetProductoAsJson(model.productos);
 				richte.Text = productoTem;
