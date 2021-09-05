@@ -254,6 +254,7 @@ namespace Programacion1
 
 			if (cmbOpciones.SelectedIndex == 0)
 			{
+				btnAceptar.Visible = false;//
 				Buscarla.Visible = true;
 				cmbOpcionesUnidades.Visible = true;
 				txtFechaCaducidad.Visible = false;
@@ -267,6 +268,7 @@ namespace Programacion1
 			}
 			if (cmbOpciones.SelectedIndex == 1)
 			{
+				btnAceptar.Visible = false;//
 				richte.Visible = false;
 				cmbOpcionesUnidades.Visible = false;
 				Buscarla.Visible = false;
@@ -279,6 +281,7 @@ namespace Programacion1
 			}
 			if (cmbOpciones.SelectedIndex == 2)
 			{
+				btnAceptar.Visible = false;//
 				richte.Visible = false;
 				cmbOpcionesUnidades.Visible = false;
 				Buscarla.Visible = false;
@@ -290,6 +293,7 @@ namespace Programacion1
 			}
 			if (cmbOpciones.SelectedIndex == 3)
             {
+				
 				btnAceptar.Visible = true;
 				richte.Visible = false;
 				cmbOpcionesUnidades.Visible = false;

@@ -32,3 +32,21 @@ C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Prog
 C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.CopyComplete
 C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.exe
 C:\Users\Kevin Roa\source\repos\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.pdb
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Programacion1.exe.config
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Programacion1.exe
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Programacion1.pdb
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Domain.dll
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Model.dll
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Domain.pdb
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Model.pdb
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.AssemblyReference.cache
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.Form1.resources
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.FrmProducto.resources
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.Properties.Resources.resources
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.GenerateResource.cache
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.CoreCompileInputs.cache
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.csproj.CopyComplete
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.exe
+C:\Users\ZGN\OneDrive\Documentos\GitHub\TrabajoProgramacion\Programacion1\obj\Debug\Programacion1.pdb
